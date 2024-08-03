@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <OpenLayersMap />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OpenLayersMap from './components/OpenLayersMap.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OpenLayersMap
   }
 }
 </script>
